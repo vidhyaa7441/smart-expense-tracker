@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome | Smart Expense Manager</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="welcome-page">
+    <div class="welcome-container">
+      <div class="welcome-header">
+        <h1>💰 Welcome!</h1>
+        <p class="welcome-subtitle">Choose an option to continue</p>
+      </div>
+
+      <div class="welcome-options">
+        <div class="welcome-card" onclick="window.location.href='login.html'">
+          <div class="welcome-icon">🔐</div>
+          <h3>Login</h3>
+          <p>Already have an account? Login to continue managing your expenses.</p>
+          <button class="btn-welcome">Login Now</button>
+        </div>
+
+        <div class="welcome-card" onclick="window.location.href='signup.html'">
+          <div class="welcome-icon">✨</div>
+          <h3>Sign Up</h3>
+          <p>New here? Create a free account and start tracking your finances today.</p>
+          <button class="btn-welcome">Sign Up Now</button>
+        </div>
+      </div>
+
+      <p class="back-link">
+        <a href="home.html">← Back to Home</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
